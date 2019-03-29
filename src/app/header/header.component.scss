@@ -1,0 +1,31 @@
+.site-header {
+    // height: 50px;
+    background: #85eb93;
+
+    .logo-container {
+        padding: 1em;
+    }
+}
+
+.nav-items {
+
+
+    .nav-item {
+        height: 100%;
+        color: black;
+        cursor: pointer;
+        width: auto;
+        padding: 1em;
+        margin-left: 0.5 em;
+        transition: all 0.2s;
+        
+
+        &:hover {
+            background: #e9eb85;
+        }
+    }
+    .nav-item.active {
+        background: white;
+    }
+
+}
